@@ -31,3 +31,39 @@
     transform: rotate(360deg);
   }
 }
+
+.details{
+  background: #999;
+  height: 85vh;
+  width: calc(100%-40px);
+  overflow: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media (max-width: 64em){
+  .details{    
+    height: 40vh;
+  }
+}
+
+.green{
+  background: green;
+  height: 100px;
+  min-width: 50px;
+}
+.blue{
+  background: blue;
+  height: 100px;
+  min-width: 50px;
+}
+.red{
+  background: red;
+  height: 100px;
+  min-width: 50px;
+}
+.yellow{
+  background: yellow;
+  height: 100px;
+  min-width: 50px;
+}
