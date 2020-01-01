@@ -1,4 +1,4 @@
-import {SET_CITY} from './../actions';
+import {SET_CITY} from '../actions';
 
 
 export const city = (state ={}, action)=>{

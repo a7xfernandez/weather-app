@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 import CirculaProgress from '@material-ui/core/CircularProgress';
 import {PropTypes} from 'prop-types';
-import getUrlWeatherByCity from './../../services/getUrlWeatherByCity';
 import transformWeather from './../../services/transformWeather';
-import{api_weather} from './../../constants/api_url';
 import Location from './Location';  
 import WeatheData from './WeatherData';
 import './styles.css';
-import WeatherExtraInfo from './WeatherData/WeatherExtraInfo';
 
 
 const api_key = "94c47bc54fa48611447617e6c98469bb";

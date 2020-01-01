@@ -1,7 +1,7 @@
 
 import {createStore, applyMiddleware, compose} from 'redux';
 import thunk from 'redux-thunk';
-import reducers from './../reducer';
+import reducers from './../reducers';
 
 const initialState = {
     city: 'Tegucigalpa,hn'
