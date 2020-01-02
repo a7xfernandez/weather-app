@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.5.0",
     "convert-units": "^2.3.4",
+    "lodash.topairs": "^4.3.0",
     "moment": "^2.24.0",
     "npm": "^6.11.1",
     "prop-types": "^15.7.2",
@@ -15,7 +16,8 @@
     "react-scripts": "3.0.1",
     "react-weathericons": "^1.0.4",
     "redux": "^4.0.4",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

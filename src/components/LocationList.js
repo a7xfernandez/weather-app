@@ -13,9 +13,10 @@ const LocationList = ({cities,onSelectedLocation})=> {
         cities.map( city => 
                 (
                     <WeatherLocation 
-                        key={city}
-                        city={city}
-                        onWeatherLocationClick={() => handleWeatherLocationClick(city)} />))
+                        key={city.key}
+                        city={city.name}
+                        onWeatherLocationClick={() => handleWeatherLocationClick(city.name)} 
+                        data= {city.data}/>))
     );
    return ( <div className="LocationList">
                 {strToComponent(cities)}
